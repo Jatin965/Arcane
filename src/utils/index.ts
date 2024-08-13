@@ -1,9 +1,9 @@
 import { Candidate, ReferenceData } from "../types";
 
 export const getCandidate: () => Candidate = () => ({
-  firstName: "John",
-  lastName: "Doe",
-  email: "John_doe@arc.ane",
+  firstName: "Jatin",
+  lastName: "Saini",
+  email: "jatin4762@gmail.com",
   role: "frontend",
   source: "referral",
   verifications: [
@@ -24,8 +24,13 @@ export const getCandidate: () => Candidate = () => ({
       eligibility: {
         checks: [
           {
-            label: "Has a car",
-            name: "car",
+            label: "Has a sense of humour",
+            name: "humour",
+            passed: true,
+          },
+          {
+            label: "Driver's license",
+            name: "driverLicense",
             passed: true,
           },
         ],
