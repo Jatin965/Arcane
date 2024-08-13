@@ -16,10 +16,7 @@ export const Dashboard: React.FC = () => {
               const existing = verification.eligibility.checks.find(
                 (c) => c.name === condition.name
               );
-              if (existing) {
-                return existing;
-              }
-              return condition;
+              return existing ? { ...existing } : { ...condition }; // Created Deep Copy to avoid mutating original object
             }),
           },
         };
