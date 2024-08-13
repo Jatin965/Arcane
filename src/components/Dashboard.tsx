@@ -43,7 +43,7 @@ export const Dashboard: React.FC = () => {
         <div className="h-16 flex items-center px-8">
           <span className="text-xl font-bold">Arcane</span>
           <span className="flex-1 flex"></span>
-          <a target="_blank" href="https://github.com/abhishk-me/Arcane">
+          <a target="_blank" href="https://github.com/Jatin965/Arcane">
             <div className="flex items-center px-2 py-1 rounded-md hover:bg-neutral-200 cursor-pointer">
               <svg
                 fill="none"
