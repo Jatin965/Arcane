@@ -18,7 +18,7 @@ You've identified the weirdness in the eligibility checks, but don't just jump i
 
 Think like a code detective. Isolate the culprit, understand why it's causing trouble, and then propose a solution that sets things straight. This is how you'll truly showcase your debugging mastery!
 
-## The Solution: Taming the Reference Copy Bug
+# The Solution: Taming the Reference Copy Bug
 
 Just by looking at the behavior of the app, I suspected a reference copy issue. The problem was that when we updated one verification, the changes propagated unexpectedly to others. This happened because the eligibility checks were being copied by reference rather than as separate entities.
 
